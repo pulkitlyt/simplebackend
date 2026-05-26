@@ -1,0 +1,13 @@
+npm init
+npm install express
+npm i dotenv
+
+index.js{
+    require('dotenv').config()
+    const express = require('express')
+    const app = express()
+}
+
+make file .env{
+PORT=3000
+}
